@@ -4935,11 +4935,11 @@ BBString * bmx_openxlsx_xlgradientstop_summary(MaxXLGradientStop * gradientStop)
 
 ///////////////////////////////////////////////////////////
 int bmx_openxlsx_enable_xml_namespaces() {
-	return OpenXLSX::enable_xml_namespaces();
+	return (int) OpenXLSX::enable_xml_namespaces();
 }
 
 int bmx_openxlsx_disable_xml_namespaces() {
-	return OpenXLSX::disable_xml_namespaces();
+	return (int) OpenXLSX::disable_xml_namespaces();
 }
 
 void bmx_openxlsx_use_random_ids() {
