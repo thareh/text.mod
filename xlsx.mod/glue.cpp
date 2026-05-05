@@ -3152,7 +3152,7 @@ void bmx_openxlsx_xldocument_deleteproperty(MaxXLDocument * doc, int property) {
 }
 
 int bmx_openxlsx_xldocument_isopen(MaxXLDocument * doc) {
-	doc->isOpen();
+	return doc->isOpen();
 }
 
 MaxXLStyles * bmx_openxlsx_xldocument_styles(MaxXLDocument * doc) {
